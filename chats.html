@@ -28,28 +28,32 @@
         <span><i class="fa-solid fa-search fa-lg"></i></span>
         <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-cog fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fa-solid fa-cog fa-lg"></i></a
+        ></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="img/avatar-01.png"
-            class="user-component__avatar user-component__avatar"
-            alt="avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">John</h4>
-            <h6 class="user-component__subtitle">Hi there, how are you?</h6>
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/avatar-01.png"
+              class="user-component__avatar user-component__avatar"
+              alt="avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">John</h4>
+              <h6 class="user-component__subtitle">Hi there, how are you?</h6>
+            </div>
           </div>
-        </div>
-        <div class="user-component__column">
-          <sapn class="user-component__time">11:11</sapn>
-          <div class="badge">1</div>
-        </div>
-      </div>
+          <div class="user-component__column">
+            <sapn class="user-component__time">11:11</sapn>
+            <div class="badge">1</div>
+          </div>
+        </div></a
+      >
     </main>
 
     <nav class="nav">
@@ -72,12 +76,22 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html"
-            ><span class="nav__ellipsis"></span
+            ><span class="nav__ellipsis badge badge--small"></span
             ><i class="fa-solid fa-ellipsis fa-2x"></i
           ></a>
         </li>
       </ul>
     </nav>
+    <div id="no-mobile">
+      <span
+        >Your screen is too big <i class="fa-regular fa-face-sad-tear"></i
+      ></span>
+    </div>
+    <div id="no-landscape">
+      <span
+        >Make your screen portrait <i class="fa-solid fa-rotate-right"></i
+      ></span>
+    </div>
     <!-- font awesome -->
     <script
       src="https://kit.fontawesome.com/90b0d86629.js"
