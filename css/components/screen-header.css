@@ -25,3 +25,9 @@
   left: 70px;
   bottom: 15px;
 }
+
+.screen-header__notification--more {
+  position: absolute;
+  left: 120px;
+  bottom: 15px;
+}
