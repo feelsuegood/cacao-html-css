@@ -34,7 +34,7 @@
   font-weight: 600;
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (hover: none) {
   #no-landscape {
     display: flex;
   }
