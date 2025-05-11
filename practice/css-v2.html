@@ -12,6 +12,28 @@
                 display: block;
                 background-color: coral;
             }
+            a{
+                color: white;
+                background-color: tomato;
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 5px;
+                font-size: 55px;
+                transition: all 5s ease-in-out;
+            }
+            a:hover{
+                color:tomato;
+                background-color: aqua;
+            }
+            img{
+                border: 10px solid black;
+                border-radius: 50%;
+                transition: transform 1s ease-in-out
+            }
+            img:hover {
+                /* transform: rotateZ(90deg); */
+                transform: matrix(1, 2, 3, 4, 5, 6);
+            }
         </style>
     </head>
     <body>
@@ -20,8 +42,9 @@
        <span>hello</span>
        <span>hello</span>
        <img src="../avatar.jpeg" />
-       <a href="#">link</a>
+       <!-- <a href="#">link</a> -->
        <code>print("hi")</code>
+       <a href="#">Go home</a>
     </body>
 </html>
 
