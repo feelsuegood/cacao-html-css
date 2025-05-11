@@ -1,5 +1,5 @@
 
-# 🌟 Cacao Clone 2024 
+# 🌟 Cacao Clone
 
 This is a non-profit, educational project that recreates the KakaoTalk messenger's user interface. The project focuses on implementing modern CSS features and responsive design principles to create a pixel-perfect clone of the popular messaging platform.
 
