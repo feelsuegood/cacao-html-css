@@ -21,7 +21,7 @@
 
 #no-landscape {
   position: absolute;
-  z-index: 100;
+  z-index: 98;
   height: 100vh;
   color: white;
   background-color: var(--purple);
