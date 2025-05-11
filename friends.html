@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Cacao</title>
+    <title>Friends | Cacao - Personal Portfolio</title>
   </head>
   <body>
     <div class="status-bar">
@@ -16,7 +16,7 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>77%</span>
         <i class="fa-solid fa-battery-full"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
@@ -35,20 +35,45 @@
       <i class="fa-solid fa-circle-info"></i> Friends' Names Display
       <i class="fa-solid fa-chevron-right fa-xs"></i>
     </a>
+
     <main class="friends-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="./avatar.jpeg"
-            class="user-component__avatar"
+            class="user-component__avatar user-component__avatar--xl"
             alt="avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Sue</h4>
-            <h6 class="user-component__subtitle">description</h6>
+            <!-- <h6 class="user-component__subtitle">description</h6> -->
           </div>
         </div>
         <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="./avatar.jpeg"
+              class="user-component__avatar user-component__avatar--sm"
+              alt="avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <sapn>2</sapn>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
       </div>
     </main>
 
@@ -78,6 +103,7 @@
         </li>
       </ul>
     </nav>
+    <!-- font awesome -->
     <script
       src="https://kit.fontawesome.com/90b0d86629.js"
       crossorigin="anonymous"
