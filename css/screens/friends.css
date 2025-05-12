@@ -5,11 +5,12 @@
   padding: 15px 0px;
   font-size: 16px;
   margin-bottom: 10px;
-  margin-top: -15px;
+  margin-top: 90px;
 }
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
+  /* margin-top: 0px; */
 }
 
 #friends-display-link i {
@@ -53,6 +54,7 @@
   font-size: 90px;
   animation: hideSplashScreen 2s ease-in-out forwards;
   /* animation-delay: 1s; */
+  z-index: 3;
 }
 
 @keyframes rotateComment {
