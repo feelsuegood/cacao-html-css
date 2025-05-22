@@ -6,11 +6,16 @@
   background-color: var(--purple);
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 0;
   font-size: 25px;
   font-weight: 600;
+}
+
+#no-mobile span {
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
