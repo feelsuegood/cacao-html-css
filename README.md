@@ -44,9 +44,6 @@ This is a non-profit, educational project that recreates the KakaoTalk messenger
 - Semantic HTML structure
 - Modular CSS architecture
 
-## ⚠️ Disclaimer 
-This project is for EDUCATIONAL PURPOSES only. All rights for the original design and concept belong to Kakao Corporation. This clone is created to demonstrate HTML and CSS skills and is not intended for commercial use.
-
 ##  📚 Learning Outcomes
 - Advanced CSS styling techniques
 - Responsive design implementation
@@ -71,6 +68,6 @@ This project is for EDUCATIONAL PURPOSES only. All rights for the original desig
 - [KakaoTalk Official Website](https://www.kakaocorp.com/page/service/service/KakaoTalk?lang=ENG&tab=all)
 - [Nomad Coders Kokoa Clone 2020](https://nomadcoders.co/kokoa-clone)
 
-## 📌 Note 
-This project is part of a coding exercise to understand modern web development techniques. It demonstrates the implementation of a complex user interface using only HTML and CSS.
-
+## 🏷️ License
+- CC BY-NC-SA 4.0 (non-commercial research only)
+- This project is for non-commercial research and educational purposes only.
